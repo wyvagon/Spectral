@@ -1,0 +1,16 @@
+[
+{
+  "modid": "spectral",
+  "name": "Spectral",
+  "description": "Bind spirits to your will.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["wyvagon"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

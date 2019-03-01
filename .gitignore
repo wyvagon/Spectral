@@ -1,0 +1,15 @@
+#Gradle
+/.gradle/
+
+#Maven
+target/
+
+#Other directories
+/build/
+/run/
+/bin/
+/libs/
+/classes/
+
+#Java
+*.class
