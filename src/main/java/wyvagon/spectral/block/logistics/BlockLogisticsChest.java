@@ -1,7 +1,7 @@
 package wyvagon.spectral.block.logistics;
 
 import wyvagon.spectral.Spectral;
-import wyvagon.spectral.tile.logistics.TileLogisticsBeacon;
+import wyvagon.spectral.tile.logistics.TileLogisticsChest;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -13,11 +13,11 @@ import net.minecraft.world.World;
 
 import javax.annotation.Nullable;
 
-public class BlockLogisticsBeacon extends Block {
-
-	public BlockLogisticsBeacon() {
+public class BlockLogisticsChest extends Block {
+	
+	public BlockLogisticsChest() {
 		super(Material.ROCK);
-		setTranslationKey(Spectral.MODID + ".logisticsBeacon");
+		setTranslationKey(Spectral.MODID + ".logisticsChest");
 		setCreativeTab(Spectral.SPECTRAL_TAB);
 		setHardness(2.0F);
 		setHarvestLevel("pickaxe", 1);
@@ -26,12 +26,12 @@ public class BlockLogisticsBeacon extends Block {
 	@Nullable
 	@Override
 	public TileEntity createTileEntity(World worldIn, IBlockState state) {
-		return new TileLogisticsBeacon();
+		return new TileLogisticsChest();
 	}
 
 	@Override
 	public boolean hasTileEntity(IBlockState state) {
 		return true;
 	}
-
+	
 }
