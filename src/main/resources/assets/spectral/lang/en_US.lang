@@ -1,0 +1,8 @@
+#Blocks
+tile.spectral.logisticsBeacon.name=Logistics Beacon
+
+#Creative Tab
+itemGroup.spectral=Spectral
+
+#Items
+item.spectral.soulJar.name=Soul Jar
